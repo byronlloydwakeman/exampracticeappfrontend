@@ -1,0 +1,42 @@
+.subjectCard{
+    display: block;
+
+    width: 200px;
+    height: 240px;
+
+    text-align: center;
+
+    background-color: var(--secondary-color);
+
+    border: 5px;
+    border-style: solid;
+    border-color: var(--primary-color);
+    border-radius: 15px;
+
+    margin: 30px;
+
+    transition: height 1s, width 1s;
+}
+
+.subjectCard:hover{
+    height: 264px;
+    width: 220px;
+}
+
+.subjectCard__title{
+    color: var(--background-color);
+    
+    font-size: 1.5rem;
+    font-weight: 400;
+
+    transition: font-size 1s;
+}
+
+.subjectCard:hover > .subjectCard__title{
+    font-size: 1.75rem;
+}
+
+.subjectCard__button-container{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,54 @@
+.answer__container{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 50px;
+}
+
+.answer-input__container{
+    display: flex;
+    flex-direction: row;
+}
+
+.answer-input__button{
+    border: 1px solid var(--primary-color);
+
+    background: transparent;
+    color: var(--primary-color);
+    height: 36px;
+    width: 50px;
+
+    cursor: pointer;
+}
+
+.answers__container{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 40px; 
+}
+
+.answers__element{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    border: 1px solid var(--primary-color);
+    margin-left: 50px;
+    padding: 5px;
+
+    width: 500px;
+    height: 30px;
+
+    color: white;
+}
+
+.answers-del__button{
+    background: transparent;
+    border: 0;
+    color: var(--primary-color);
+
+    cursor: pointer;
+
+    margin-left: auto;
+}

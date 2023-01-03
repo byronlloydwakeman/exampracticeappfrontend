@@ -1,0 +1,12 @@
+.navBar__container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navBar__img{
+    height: 60px;
+    width: 60px;
+
+    margin: 15px;
+    filter: invert(26%) sepia(1%) saturate(0%) hue-rotate(177deg) brightness(95%) contrast(90%);
+}

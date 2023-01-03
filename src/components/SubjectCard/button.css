@@ -1,0 +1,21 @@
+.button{
+    background-color: transparent;
+
+    border: 0px;
+
+    margin: 5px;
+}
+
+.button__text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+
+    color: var(--background-color);
+
+    transition: font-size 1s;
+}
+
+.button__text:hover {
+    font-size: 1.25rem;
+}

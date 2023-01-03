@@ -1,0 +1,28 @@
+.createSubjectCard{
+    display: flex;
+        
+    background-color: var(--font-color);
+
+    border: 5px;
+    border-style: solid;
+    border-color: #464646;
+    border-radius: 15px;
+}
+
+.createSubjectCard__img-container{
+    margin: auto;
+}
+
+.createSubjectCard__img{
+    width: 100px;
+    height: 100px;
+
+    filter: invert(26%) sepia(1%) saturate(0%) hue-rotate(177deg) brightness(95%) contrast(90%);
+
+    transition: width 1s, height 1s;
+}
+
+.createSubjectCard__img:hover{
+    width: 110px;
+    height: 110px
+}

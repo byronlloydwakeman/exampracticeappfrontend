@@ -1,0 +1,86 @@
+.flashcardElement__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+
+    border: 1px;
+    border-style: solid;
+    border-color: var(--primary-color);
+    border-radius: 15px;
+
+    text-align: center;
+
+    margin: 3rem;
+
+    min-width: 400px;
+
+    padding: 0.5rem 1rem;
+}
+
+.flashcardElement-question__container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    text-align: center;
+}
+
+.flashcardElement__text{
+    color: white;
+    font-size: 1rem;
+
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flashcardElement-answer__container{
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 15px;
+}
+
+.flashcardElement-answer{
+    color: white;
+    font-size: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.flashcardElement-button__container{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+
+    
+    justify-content: center;
+}
+
+.flashcardElement-edit__button{
+    margin: 3px;
+    min-height: 10px;
+
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 1s, font-size 1s;
+}
+
+.flashcardElement-editbutton__text{
+    margin: 5px;
+}
+
+.flashcardElement-edit__button:hover{
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+}

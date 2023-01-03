@@ -1,0 +1,14 @@
+.user__container{
+    display: flex;
+
+    margin: 10px;
+}
+
+.user__text{
+    color: white;
+    font-weight: 200;
+    font-size: 1.5rem;
+
+    margin: auto;
+    margin-right: 20px;
+}
